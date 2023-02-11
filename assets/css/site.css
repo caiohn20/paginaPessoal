@@ -1,25 +1,63 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
 
-header, section {
-  font-family: "Roboto", sans-serif;
+header,
+section,
+h1 {
+  font-family: "Poppins", sans-serif;
 }
 
 footer {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.backgroundAzul {
-  background-color: #015761;
+.backgroundDivHome {
+  background-color: rgb(78, 166, 153);
 }
 
-.navbar-brand, p.letraAmarela {
-  color: rgb(247, 220, 79) !important;
+h1 {
+  color: rgb(78, 166, 153) !important;
+}
+
+.navbar-brand {
+  color: black !important;
 }
 
 header > nav > div > div > ul > li > a {
-  color: white !important;
+  color: black !important;
 }
 
-.hoverAmarelo:hover {
-  color: rgb(247, 220, 79) !important;
+.hoverAzul:hover {
+  color: rgb(0, 80, 255) !important;
+}
+
+.letraAmarela {
+  color: rgb(234, 180, 100);
+}
+
+.textoClaro {
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .backgroundDivHome {
+    min-height: 600px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .backgroundDivHome {
+    min-height: 300px;
+  }
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+#divImagemUm {
+  background-image: url("../imgs/fotoedit1.png");
+  /* background-position: center; */
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
 }
