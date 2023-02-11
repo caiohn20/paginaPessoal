@@ -1,0 +1,15 @@
+{
+    "name": "caioh/pagina-pessoal",
+    "autoload": {
+        "psr-4": {
+			"src\\": "src"
+		}
+    },
+    "authors": [
+        {
+            "name": "caiohn20",
+            "email": "caio.hn20@gmail.com"
+        }
+    ],
+    "require": {}
+}
