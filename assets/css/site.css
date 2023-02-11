@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+header, section {
+  font-family: "Roboto", sans-serif;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
+.backgroundAzul {
+  background-color: #015761;
+}
+
+.navbar-brand, p.letraAmarela {
+  color: rgb(247, 220, 79) !important;
+}
+
+header > nav > div > div > ul > li > a {
+  color: white !important;
+}
+
+.hoverAmarelo:hover {
+  color: rgb(247, 220, 79) !important;
+}
