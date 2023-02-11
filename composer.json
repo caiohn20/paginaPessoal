@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
 			"src\\": "src"
-		}
+		},
+        "files": [
+			"src/Config/config.php"
+		]
     },
     "authors": [
         {

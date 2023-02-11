@@ -1,0 +1,15 @@
+#habilitando a reescrita---------------------------------------------------------
+RewriteEngine On
+
+RewriteRule    ^home/?$    src/Views/home.php    [QSA,NC,L]
+
+#redirecionamento para erros----------------------------------------------------
+RewriteRule    ^403/?$    exception/403.php    [QSA,NC,L]
+RewriteRule    ^404/?$    exception/404.php    [QSA,NC,L]
+RewriteRule    ^erro/?$    exception/erro.php    [QSA,NC,L]
+
+Options -Indexes
+
+#redirecionamento para erros ---------------------------------------------------
+ErrorDocument 403 /paginaPessoal/exception/403.php
+ErrorDocument 404 /paginaPessoal/exception/403.php
