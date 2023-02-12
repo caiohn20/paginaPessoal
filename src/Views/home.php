@@ -39,7 +39,7 @@ require_once './Layout/cabecalho.php';
     </section>
     <section class="text-center container py-5" style="background-color: rgb(241, 240, 240);">
         <div class="row mt-5">
-            <div class="col-md-12 col-sm-12 mt-md-4">
+            <div class="col-md-12 col-sm-12 mt-md-5">
                 <h1 class="fw-bold">Sobre Mim</h1>
             </div>
         </div>
@@ -50,15 +50,15 @@ require_once './Layout/cabecalho.php';
             </div>
         </div>
         <div class="row justify-content-center mb-5">
-            <div class="col-md-8 col-sm-12 mt-md-4 text-center">
+            <div class="col-md-8 col-sm-12 mt-md-4 text-center mb-5">
                 <a  class="btn btn-warning" href="https://www.linkedin.com/in/caiohn20/" target="_blank">Ver currículo completo</a>
             </div>
         </div>
     </section>
     <section class="text-center container py-5">
         <div class="row">
-            <div class="col-md-12 col-sm-12 mt-md-4">
-                <h1 class="fw-bold">Fotos</h1>
+            <div class="col-md-12 col-sm-12 my-md-5">
+                <h1 class="fw-bold tituloSessao mb-2">Fotos</h1>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -72,32 +72,6 @@ require_once './Layout/cabecalho.php';
     </section>
     <section class="text-center container">
         <div class="row justify-content-center">
-            <div class="col-md-6 col-sm-12 backgroundDivHome">
-
-                <div style="height: auto;">
-                    <div class="row mx-md-5 px-md-4">
-                        <div class="col-12 p-0">
-                            <p class="letraAmarela fw-semibold text-start subtitulo">Olá, Sou</p>
-                        </div>
-                    </div>
-                    <div class="row mx-md-5 px-md-4">
-                        <div class="col-12 p-0">
-                            <p class="text-start fw-semibold textoClaro titulo">Caio Henrique</p>
-                        </div>
-                    </div>
-                    <div class="row mx-md-5 px-md-4">
-                        <div class="col-12 p-0">
-                            <p class="text-start fw-semibold textoClaro titulo">Natal</p>
-                        </div>
-                    </div>
-                    <div class="row mx-md-5 px-md-4">
-                        <div class="col-12 p-0">
-                            <p class="text-start fs-4 fw-normal textoClaro">Empreendedor / Desenvolvedor</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </div>
     </section>
 </main>
