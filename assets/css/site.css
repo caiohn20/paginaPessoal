@@ -41,13 +41,30 @@ header > nav > div > div > ul > li > a {
 
 @media only screen and (min-width: 768px) {
   .backgroundDivHome {
-    min-height: 600px;
+    min-height: 1000px;
+  }
+
+  .subtitulo {
+    font-size: 48px !important;
+  }
+
+  .titulo {
+    font-size: 100px !important;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .backgroundDivHome {
-    min-height: 300px;
+  .backgroundDivHome,
+  #divImagemUm {
+    min-height: 400px;
+  }
+
+  .subtitulo {
+    font-size: 1.5rem;
+  }
+
+  .titulo {
+    font-size: 2.5rem;
   }
 }
 
@@ -60,4 +77,43 @@ header > nav > div > div > ul > li > a {
   /* background-position: center; */
   background-repeat: no-repeat, repeat;
   background-size: cover;
+}
+
+.backgroundDivHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #divImagemDois {
+  background-image: url("../imgs/foto2.jpg");
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+}
+
+#divImagemTres {
+  background-image: url("../imgs/foto3.jpg");
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+} */
+
+#divImagemDois, #divImagemTres {
+  height: auto;
+  margin: auto;
+}
+
+#divImagemDois img {
+  width: 100%;
+  height: 500px;;
+}
+
+#divImagemTres img {
+  width: 100%;
+  height: 500px;
 }
