@@ -4,7 +4,7 @@ require_once './Layout/cabecalho.php';
 ?>
 
 <main>
-    <section class="text-center container m-0">
+    <section class="text-center container m-0" id="inicio">
         <div class="row">
             <div class="col-md-6 col-sm-12 backgroundDivHome">
 
@@ -37,7 +37,7 @@ require_once './Layout/cabecalho.php';
             </div>
         </div>
     </section>
-    <section class="text-center container py-5" style="background-color: rgb(241, 240, 240);">
+    <section class="text-center container py-5" style="background-color: rgb(241, 240, 240);" id="sobremim">
         <div class="row mt-5">
             <div class="col-md-12 col-sm-12 mt-md-5">
                 <h1 class="fw-bold">Sobre Mim</h1>
@@ -55,7 +55,7 @@ require_once './Layout/cabecalho.php';
             </div>
         </div>
     </section>
-    <section class="text-center container py-5">
+    <section class="text-center container py-5" id="clienteprojetos">
         <div class="row mt-5">
             <div class="col-md-12 col-sm-12 my-md-5">
                 <h1 class="fw-bold tituloSessao mb-2">Clientes e Projetos</h1>
@@ -64,7 +64,7 @@ require_once './Layout/cabecalho.php';
         <div class="row justify-content-center">
             <div class="col-md-4 col-sm-12 text-center">
                 <div class="card" style="border: 0;">
-                    <div class="card-body text-start ps-0">
+                    <div class="card-body text-start ps-0 mb-5">
                         <div class="row">
                             <div class="col-12">
                                 <p class="m-0 fw-semibold bordaEsquerdaAzul"><span class="ms-4 fs-4">Grupo Maxpro Educacional</span></p>
@@ -115,48 +115,37 @@ require_once './Layout/cabecalho.php';
             </div>
         </div>
     </section>
-    <section class="text-center container py-5">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-sm-12 p-0" id="divImagemUm">
+    <section class="text-center container py-5" style="background-color: rgb(241, 240, 240);" id="contato">
+        <div class="row mt-5">
+            <div class="col-md-12 col-sm-12 my-md-5">
+                <h1 class="fw-bold tituloSessao mb-2">Contato</h1>
             </div>
-            <div class="col-md-6 col-sm-12 backgroundDivHome">
-
-                <div style="height: auto;">
-
-                    <div class="row">
-                        <div class="col-12">
-                            <p class="text-start fw-semibold letraAmarela tituloSessao">Contato</p>
-                        </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-4 col-sm-12">
+                <p class="text-start fw-semibold fs-5">Telefone</p>
+                <p class="text-start fs-5">(19) 99787-7712</p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="text-start fw-semibold fs-5">Email</p>
+                <p class="text-start fs-5">caio.hn20@gmail.com</p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="text-start fw-semibold fs-5">Redes Sociais</p>
+                <div class="row justify-content-center">
+                    <div class="col text-start">
+                        <a href="https://instagram.com/caiohn20?igshid=YzgyMTM2MGM=" target="_blank" class="btn"><i class="fa-brands fa-instagram" style="scale: 2;"></i></a>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <p class="text-start fw-semibold fs-5">Caio Henrique Natal</p>
-                        </div>
+                    <div class="col text-start">
+                        <a href="https://www.facebook.com/caio.hn20?mibextid=ZbWKwL" target="_blank" class="btn"><i class="fa-brands fa-facebook" style="scale: 2;"></i></a>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <p class="text-start fw-semibold fs-5">Email - caio.hn20@gmail.com</p>
-                        </div>
+                    <div class="col text-start">
+                        <a href="https://github.com/caiohn20" target="_blank" class="btn"><i class="fa-brands fa-github" style="scale: 2;"></i></a>
                     </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <p class="text-start fw-semibold fs-5">Tel - (19) 997877712</p>
-                        </div>
+                    <div class="col text-start">
+                        <a href="mailto:caio.hn20@gmail.com" target="_blank" class="btn"><i class="fa-regular fa-envelope" style="scale: 2;"></i></a>
                     </div>
-                    <div class="row justify-content-center mt-4">
-                        <div class="col">
-                            <a href="https://instagram.com/caiohn20?igshid=YzgyMTM2MGM=" target="_blank" class="btn"><i class="fa-brands fa-instagram" style="scale: 3;"></i></a>
-                        </div>
-                        <div class="col">
-                            <a href="https://www.facebook.com/caio.hn20?mibextid=ZbWKwL" target="_blank" class="btn"><i class="fa-brands fa-facebook" style="scale: 3;"></i></a>
-                        </div>
-                        <div class="col">
-                            <a href="https://github.com/caiohn20" target="_blank" class="btn"><i class="fa-brands fa-github" style="scale: 3;"></i></a>
-                        </div>
-                    </div>
-                    
                 </div>
-
             </div>
         </div>
     </section>
