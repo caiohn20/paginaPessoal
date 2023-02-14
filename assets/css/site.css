@@ -81,6 +81,7 @@ header > nav > div > div > ul > li > a {
   /* background-position: center; */
   background-repeat: no-repeat, repeat;
   background-size: cover;
+  /* background-attachment: fixed; */
 }
 
 .backgroundDivHome {
@@ -125,4 +126,8 @@ header > nav > div > div > ul > li > a {
 
 .bordaEsquerdaAzul {
   border-left: 8px solid rgb(78, 166, 153);
+}
+
+#inicio {
+  padding-top: 60px;
 }
